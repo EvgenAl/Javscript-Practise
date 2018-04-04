@@ -1,0 +1,23 @@
+p {
+    margin: 0;
+}
+
+#accordion {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.accordion-title {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.accordion-title.active + .accordion-cont {
+    display: block;
+}
+.accordion-cont {
+    display: none;
+}
